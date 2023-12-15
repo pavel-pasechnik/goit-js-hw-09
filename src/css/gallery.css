@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 156px;
+}
+
+.gallery-link {
+  display: block;
+  cursor: pointer;
+}
+
+.gallery-image {
+  display: block;
+  overflow: hidden;
+  width: 360px;
+  max-width: 100%;
+  object-fit: cover;
+}
